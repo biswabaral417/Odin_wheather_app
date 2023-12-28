@@ -1,0 +1,8 @@
+# Ignore artifacts:
+build
+coverage
+package-lock.json
+package.json
+.eslintignore
+.eslintrc
+.eslint.json

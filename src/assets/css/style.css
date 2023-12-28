@@ -1,0 +1,110 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: white;
+}
+
+._hidden {
+  display: none !important;
+}
+
+._visible {
+  display: block !important;
+}
+
+#currentconditionsinfo {
+  color: white;
+  font-size: 30px;
+  font-weight: 700;
+}
+
+#location,
+#date,
+#time,
+#currenttempurature {
+  color: white;
+}
+
+#currenttempurature {
+  font-size: 40px;
+  font-weight: 900;
+}
+
+#top {
+  display: flex;
+  color: white;
+  justify-content: space-between;
+}
+
+#hourly,#week {
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: row;
+  overflow: scroll;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+#hourly::-webkit-scrollbar {
+  display: none;
+
+}
+
+.phtime,
+.phtemp,.pwday,.pwtemp {
+  width: 100px;
+  margin: 10px;
+}
+.phtemp,.pwtemp{
+  font-size: 25px;
+}
+
+#bottom {
+  margin-top: auto;
+}
+
+body {
+  height: 100dvh;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#content {
+  padding: 30px;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+#feels-like,#humidity,#wind_kph,#chance_of_rain{
+  font-size: 25px;
+}
+#location-search-btn{
+  all: unset;
+  width: 40px;
+  height: 40px;
+  margin-left: 10px;
+  cursor: pointer;
+}
+#location-search{
+  all: unset;
+  border-bottom: 2px solid white;
+  color: white;
+  font-size: 20px;
+}
+.bi-search{
+  height: 30px;
+  width: 30px;
+}
+#showhoursbtn,#showweeksbtn{
+  all: unset;
+  padding: 10px 20px;
+  cursor: pointer;
+  border-radius: 5px;
+  margin: 5px;
+}
+#showhoursbtn:hover,#showweeksbtn:hover{
+  color: rgb(167, 165, 165);
+  border: 1px solid rgb(167, 165, 165);
+}
