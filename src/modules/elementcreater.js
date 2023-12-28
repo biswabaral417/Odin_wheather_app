@@ -1,5 +1,4 @@
 const elemcreater = ({ prop, parentId, text }) => {
-  
   const element = document.createElement(prop.trim().match(/^\s*(\w+)?/)[0]); // create an element
   element.id = prop.match(/\b\w+(?:-\w+)?(?:-\w+)?\b/g)[1]; // add id to element
 

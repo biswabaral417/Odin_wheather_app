@@ -37,7 +37,8 @@
   justify-content: space-between;
 }
 
-#hourly,#week {
+#hourly,
+#week {
   display: flex;
   flex-wrap: nowrap;
   flex-direction: row;
@@ -48,15 +49,17 @@
 
 #hourly::-webkit-scrollbar {
   display: none;
-
 }
 
 .phtime,
-.phtemp,.pwday,.pwtemp {
+.phtemp,
+.pwday,
+.pwtemp {
   width: 100px;
   margin: 10px;
 }
-.phtemp,.pwtemp{
+.phtemp,
+.pwtemp {
   font-size: 25px;
 }
 
@@ -77,34 +80,39 @@ body {
   display: flex;
   flex-direction: column;
 }
-#feels-like,#humidity,#wind_kph,#chance_of_rain{
+#feels-like,
+#humidity,
+#wind_kph,
+#chance_of_rain {
   font-size: 25px;
 }
-#location-search-btn{
+#location-search-btn {
   all: unset;
   width: 40px;
   height: 40px;
   margin-left: 10px;
   cursor: pointer;
 }
-#location-search{
+#location-search {
   all: unset;
   border-bottom: 2px solid white;
   color: white;
   font-size: 20px;
 }
-.bi-search{
+.bi-search {
   height: 30px;
   width: 30px;
 }
-#showhoursbtn,#showweeksbtn{
+#showhoursbtn,
+#showweeksbtn {
   all: unset;
   padding: 10px 20px;
   cursor: pointer;
   border-radius: 5px;
   margin: 5px;
 }
-#showhoursbtn:hover,#showweeksbtn:hover{
+#showhoursbtn:hover,
+#showweeksbtn:hover {
   color: rgb(167, 165, 165);
   border: 1px solid rgb(167, 165, 165);
 }
